@@ -1,0 +1,60 @@
+﻿<Window x:Class="Ghostie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ghostie"
+        mc:Ignorable="d"
+        Title="Ghostie" Height="450" Width="800"
+        Background="#7772a8"
+        SizeChanged="MainWindowResized"
+        MouseLeftButtonUp="MainWindowClick"
+        MinHeight="360" MinWidth="460" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="MarginLeft" Width="16"/>
+            <ColumnDefinition x:Name="TextStart" Width="*"/>
+            <ColumnDefinition x:Name="GhostColumn" Width="400"/>
+            <ColumnDefinition x:Name="TextEnd" Width="*"/>
+            <ColumnDefinition x:Name="MarginRight" Width="16"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="MarginTop" Height="9"/>
+            <RowDefinition x:Name="ButtonRow" Height="*"/>
+            <RowDefinition x:Name="GhostRow" Height="225"/>
+            <RowDefinition x:Name="TextRow" Height="*"/>
+            <RowDefinition x:Name="MarginBottom" Height="9"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock x:Name="Counter"
+                   Grid.Column="1" Grid.Row="3"
+                   Grid.ColumnSpan="3"
+                   Text="Click anywhere to start"
+                   FontSize="20" FontFamily="Segoe UI Semibold"
+                   Margin="0 10 0 0"
+                   HorizontalAlignment="Center" VerticalAlignment="Top" TextAlignment="Center"/>
+        
+        <Button x:Name="MuteMusic"
+                Grid.Column="1" Grid.Row="1" 
+                Grid.ColumnSpan="3" 
+                Content="Sound On/Off" 
+                FontSize="18" FontFamily="Segoe UI" 
+                Click="MuteMusicClick" 
+                Margin="0 10 10 0"
+                HorizontalAlignment="Right" VerticalAlignment="Top"/>
+
+        <Image x:Name="GhostSprite"
+               Source="Assets/GhostSprite.png"
+               Grid.Column="2" Grid.Row="2"
+               Height="48"
+               RenderOptions.BitmapScalingMode="NearestNeighbor" 
+               HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Image.RenderTransform>
+                <TranslateTransform X="100" Y="0"/>
+            </Image.RenderTransform>
+            <Image.Clip>
+                <RectangleGeometry Rect="0 0 25 48"/>
+            </Image.Clip>
+        </Image>
+    </Grid>
+</Window>

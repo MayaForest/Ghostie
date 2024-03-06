@@ -1,0 +1,16 @@
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\bin\Debug\Ghostie.exe.config
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\bin\Debug\Ghostie.exe
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\bin\Debug\Ghostie.pdb
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie.csproj.AssemblyReference.cache
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\MainWindow.g.cs
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\App.g.cs
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie_Content.g.cs
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie_MarkupCompile.cache
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie_MarkupCompile.lref
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\MainWindow.baml
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie.g.resources
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie.Properties.Resources.resources
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie.csproj.GenerateResource.cache
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie.csproj.CoreCompileInputs.cache
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie.exe
+D:\Maya\Projet\Csharp\Ghostie\Ghostie\obj\Debug\Ghostie.pdb
